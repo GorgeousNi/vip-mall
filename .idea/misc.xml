@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/framework-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-api/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/framework-common/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.puppycrawl.com/dtds/configuration_1_3.dtd" location="$PROJECT_DIR$/../zhongjia-src/core/core-common/src/main/resources/checkStyleConfig/configuration_1_3.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

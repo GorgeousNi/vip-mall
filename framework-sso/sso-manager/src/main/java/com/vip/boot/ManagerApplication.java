@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan("com.vip.*")
 @MapperScan("com.vip.dao.*") //mapper文件
 @EnableTransactionManagement
+@ImportResource(locations = "classpath:spring.xml")
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class ManagerApplication {
 

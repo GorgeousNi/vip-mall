@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/framework-sso" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/framework-sso/sso-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/framework-sso/sso-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/spring-mybatis.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/spring.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/framework-sso/sso-service" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,10 @@
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/UserLoginPasswdAccountReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserAccountReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/service/user/UserSecurityService.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/ModifyPhoneByBankCardReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/UserRegisterPhoneReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/UserBindPasswdReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/ModifyPhoneByVerifyCodeReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/UserBindEmailReq.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserTokenReq.java

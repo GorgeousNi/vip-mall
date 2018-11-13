@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/sso-api/pom.xml" />
         <option value="$PROJECT_DIR$/sso-service/pom.xml" />
         <option value="$PROJECT_DIR$/framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-manager/pom.xml" />
       </list>
     </option>
   </component>

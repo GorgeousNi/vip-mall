@@ -1,0 +1,8 @@
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/MyResponseBodyAdvice.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/ExceptionHandlerAdvice.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/TokenRequestBodyAdvice.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/ResponseResult.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/LogResponseBodyAdvice.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/advice/LogRequestBodyAdvice.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/src/main/java/com/vip/boot/ManagerApplication.java

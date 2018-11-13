@@ -1,0 +1,10 @@
+com/vip/request/user/UserBindEmailReq.class
+com/vip/request/user/base/BaseUserAccountReq.class
+com/vip/request/user/ModifyPhoneByVerifyCodeReq.class
+com/vip/request/user/UserRegisterPhoneReq.class
+com/vip/request/user/UserBindPasswdReq.class
+com/vip/request/user/base/BaseUserTokenReq.class
+com/vip/service/user/BaseUserService.class
+com/vip/request/user/ModifyPhoneByBankCardReq.class
+com/vip/service/user/UserSecurityService.class
+com/vip/request/user/UserLoginPasswdAccountReq.class

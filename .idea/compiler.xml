@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="framework-common" />
-        <module name="framework-sso" />
         <module name="sso-api" />
+        <module name="sso-dao" />
+        <module name="sso-manager" />
         <module name="sso-service" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,8 @@
       <module name="framework-common" target="1.8" />
       <module name="framework-sso" target="1.8" />
       <module name="sso-api" target="1.8" />
+      <module name="sso-dao" target="1.8" />
+      <module name="sso-manager" target="1.8" />
       <module name="sso-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

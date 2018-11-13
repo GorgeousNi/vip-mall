@@ -1,0 +1,5 @@
+com/vip/base/BaseModel.class
+com/vip/code/CodeEnum.class
+com/vip/base/Result.class
+com/vip/code/GatewayErrorCodeEnum.class
+com/vip/code/SmsErrorCodeEnum.class

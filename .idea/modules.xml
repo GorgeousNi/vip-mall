@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/framework-common/framework-common.iml" filepath="$PROJECT_DIR$/framework-common/framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework-sso/framework-sso.iml" filepath="$PROJECT_DIR$/framework-sso/framework-sso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sso-api/sso-api.iml" filepath="$PROJECT_DIR$/sso-api/sso-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sso-service/sso-service.iml" filepath="$PROJECT_DIR$/sso-service/sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-sso/sso-api/sso-api.iml" filepath="$PROJECT_DIR$/framework-sso/sso-api/sso-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-sso/sso-manager/sso-manager.iml" filepath="$PROJECT_DIR$/framework-sso/sso-manager/sso-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-sso/sso-service/sso-service.iml" filepath="$PROJECT_DIR$/framework-sso/sso-service/sso-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vip-mall-project.iml" filepath="$PROJECT_DIR$/.idea/vip-mall-project.iml" />
     </modules>
   </component>

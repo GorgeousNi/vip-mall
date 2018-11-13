@@ -1,0 +1,7 @@
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/dao/user/UBaseUserMapper.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/model/user/UBaseUser.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/common/UserTokenParams.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/common/UserResult.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/common/UserCodeEnum.java
+/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java

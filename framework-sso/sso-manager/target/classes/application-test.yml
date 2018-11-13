@@ -1,0 +1,25 @@
+profiles: test
+logging:
+  config: classpath:log4j2.xml
+datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/vip-manager?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    testWhileIdle : true
+    validationQuery: select 1 from dual
+  mvc:
+    throw-exception-if-no-handler-found: true
+server:
+  port: 8081
+  context-path: /vip-manager
+cache:
+  getMaterialCacheSwitch:  true
+  listMaterialCacheSwitch:  true

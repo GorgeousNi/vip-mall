@@ -13,6 +13,7 @@ import com.vip.request.user.UserRegisterPhoneReq;
 import com.vip.request.user.base.BaseUserAccountReq;
 import com.vip.response.user.UserLoginPasswdAccountRep;
 import com.vip.service.user.BaseUserService;
+import java.util.Date;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,11 +55,35 @@ public class BaseUserServiceImpl implements BaseUserService {
     return Result.success(rep);
   }
 
+  @Override
   public Result register(UserRegisterPhoneReq registerReq) {
-    return null;
+
+    UBaseUser user = new UBaseUser();
+    BeanUtils.copyProperties(registerReq,user);
+    user.setUserName(registerReq.getMobilePhone()); //默认为手机号码
+    user.setCreateTime(new Date());
+    user.setUserStatus(UserConstants.USER_STATUS);//默认有效状态
+    int count = baseUserMapper.insertSelective(user);
+    if (count < 1) {
+      return Result.failure();
+    }
+    return Result.success();
   }
 
-  public Result checkUserExist(BaseUserAccountReq phoneReq) {
-    return null;
+
+  @Override
+  public boolean checkUserExist(String accountName) {
+    UBaseUser uBaseUser = baseUserMapper.selectByAccountName(accountName);
+    return uBaseUser == null ? false : true;
   }
+
+  @Override
+  public Result getUserByAccount(BaseUserAccountReq accountReq) {
+    UBaseUser uBaseUser = baseUserMapper.selectByAccountName(accountReq.getAccountName());
+    if (uBaseUser == null){
+      return UserResult.failure(UserCodeEnum.ACCOUNT_NOT_EXIST);
+    }
+    return Result.success(uBaseUser);
+  }
+
 }

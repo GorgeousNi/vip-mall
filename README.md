@@ -1,5 +1,13 @@
 # 本项目为 模拟唯品会网站
 
+基于微服务架构的分布式购物电商商城
+预计完成
+// 后台管理系统：管理商品、订单、类目、商品规格属性、用户、权限、系统统计、系统日志以及前台内容等功能
+ 前台系统：用户可以在前台系统中进行注册、登录、浏览商品、首页、下单等操作
+ 会员系统：用户可以在该系统中查询已下的订单、管理订单、我的优惠券等信息
+ 订单系统：提供下单、查询订单、修改订单状态、定时处理订单
+ 搜索系统：提供商品的搜索功能
+
 前后端分离：
 
 ## 前端项目技术：
@@ -58,8 +66,9 @@ generatorConfig.xml 文件夹为 Mybatis Generator 逆向生成工具，且已�
 
 ```
 ├── framework-sso           - 用户服务
-│   ├── sso-api             - 用户服务接口API
+│   ├── sso-api             - 用户服务API
 │   ├── sso-service         - 用户服务实现类
+│   ├── sso-manager         - 用户服务控制层
 ├── framework-common        - 公共项目包
 ├── framework-order         - 订单服务
 │   ├── order-api           - 订单服务API
@@ -68,3 +77,14 @@ generatorConfig.xml 文件夹为 Mybatis Generator 逆向生成工具，且已�
 │   ├── product-api         - 产品服务API
 │   ├── product-service     - 产品服务实现类
 ```
+
+TODO
+
+1、日志改为
+sfl4j + logback 模式
+
+2、短信服务
+供应商
+
+3、配置Swagger2 生成默认接口文档
+

@@ -1,7 +1,7 @@
 package com.vip.request.user;
 
 
-import com.vip.base.BaseModel;
+import com.vip.request.user.base.BaseUserPhoneReq;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,12 +13,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
-public class UserRegisterPhoneReq implements BaseModel {
-
-  /**
-   * 手机号
-   */
-  private String mobilePhone;
+public class UserRegisterPhoneReq extends BaseUserPhoneReq {
 
   /**
    * 验证码

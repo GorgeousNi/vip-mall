@@ -2,69 +2,40 @@ package com.vip.base;
 
 
 import java.io.Serializable;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
- * 请求参数封装，便于后期增加sign、token验证
- *
- * @Title:
- * @Description:
- * @Author GorgeousNi Created in 2018/4/30 下午6:17
+ * @author GorgeousNi on 2018/11/12 11:46 AM
+ * @Description 请求参数封装
  */
+@Setter
+@Getter
 public class ReqParam<T extends BaseParam> implements Serializable {
 
+  /**
+   * 签名
+   */
   private String sign;
+  /**
+   * 系统接口请求来源
+   */
   private String sysCode;
+  /**
+   * 用户token
+   */
   private String token;
+  /**
+   * 时间戳
+   */
   private String timestamp;
-  private String callback;
+  /**
+   * 请求来源 www、app
+   */
+  private String whereFrom;
+  /**
+   * 请求参数 主体
+   */
   private T sendData;
-
-  public String getSign() {
-    return sign;
-  }
-
-  public void setSign(String sign) {
-    this.sign = sign;
-  }
-
-  public T getSendData() {
-    return sendData;
-  }
-
-  public void setSendData(T sendData) {
-    this.sendData = sendData;
-  }
-
-  public String getSysCode() {
-    return sysCode;
-  }
-
-  public void setSysCode(String sysCode) {
-    this.sysCode = sysCode;
-  }
-
-  public String getToken() {
-    return token;
-  }
-
-  public void setToken(String token) {
-    this.token = token;
-  }
-
-  public String getTimestamp() {
-    return timestamp;
-  }
-
-  public void setTimestamp(String timestamp) {
-    this.timestamp = timestamp;
-  }
-
-  public String getCallback() {
-    return callback;
-  }
-
-  public void setCallback(String callback) {
-    this.callback = callback;
-  }
 
 }

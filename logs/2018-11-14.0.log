@@ -906,3 +906,542 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 [ INFO ] [2018-11-14 10:15:53] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
 [ INFO ] [2018-11-14 10:15:53] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 9.54 seconds (JVM running for 11.384)
 [ INFO ] [2018-11-14 10:15:58] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-14 10:48:53] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 10:49:03] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 36377 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 10:49:03] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 10:49:03] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 10:49:06] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 10:49:06] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 10:49:06] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 10:49:07] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 10:49:09] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:49:09] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:49:09] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 10:49:09] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 7.844 seconds (JVM running for 9.53)
+[ INFO ] [2018-11-14 10:49:13] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ ERROR] [2018-11-14 10:49:21] com.vip.advice.ExceptionHandlerAdvice [79] - uri=/vip-manager/user/base/login_passwd | requestBody={"sendData":{"accountName":"18819176050","loginPasswd":"MTIzNDU21"},"sign":"","sysCode":"","timestamp":"1477652421964","token":""}
+java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+	at java.util.Base64$Decoder.decode0(Base64.java:734)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.vip.utils.EncodeUtil.base64Decode(EncodeUtil.java:43)
+	at com.vip.controller.user.BaseUserController.login(BaseUserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO ] [2018-11-14 10:50:32] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 10:51:47] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 36398 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 10:51:47] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 10:51:48] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 10:51:52] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 10:51:52] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 10:51:53] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 10:51:53] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 10:51:56] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:51:56] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:51:56] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 10:51:56] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 10.498 seconds (JVM running for 12.26)
+[ INFO ] [2018-11-14 10:51:59] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ ERROR] [2018-11-14 10:52:07] com.vip.advice.ExceptionHandlerAdvice [79] - uri=/vip-manager/user/base/login_passwd | requestBody={"sendData":{"accountName":"18819176050","loginPasswd":"MTIzNDU21"},"sign":"","sysCode":"","timestamp":"1477652421964","token":""}
+java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+	at java.util.Base64$Decoder.decode0(Base64.java:734)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.vip.utils.EncodeUtil.base64Decode(EncodeUtil.java:43)
+	at com.vip.controller.user.BaseUserController.login(BaseUserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO ] [2018-11-14 10:55:42] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 10:55:52] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 36411 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 10:55:52] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 10:55:53] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 10:55:56] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 10:55:56] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 10:55:57] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 10:55:57] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 10:55:59] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:55:59] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 10:55:59] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 10:55:59] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.253 seconds (JVM running for 9.837)
+[ INFO ] [2018-11-14 10:56:02] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ ERROR] [2018-11-14 10:56:03] com.vip.advice.ExceptionHandlerAdvice [79] - uri=/vip-manager/user/base/login_passwd | requestBody={"sendData":{"accountName":"18819176050","loginPasswd":"MTIzNDU21"},"sign":"","sysCode":"","timestamp":"1477652421964","token":""}
+java.lang.IllegalArgumentException: Last unit does not have enough valid bits
+	at java.util.Base64$Decoder.decode0(Base64.java:734)
+	at java.util.Base64$Decoder.decode(Base64.java:526)
+	at java.util.Base64$Decoder.decode(Base64.java:549)
+	at com.vip.utils.EncodeUtil.base64Decode(EncodeUtil.java:43)
+	at com.vip.controller.user.BaseUserController.login(BaseUserController.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO ] [2018-11-14 11:59:06] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 11:59:17] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 36577 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 11:59:17] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 11:59:18] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 11:59:23] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 11:59:23] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 11:59:23] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 11:59:24] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 11:59:27] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 11:59:27] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 11:59:27] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 11:59:27] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 11.012 seconds (JVM running for 12.84)
+[ INFO ] [2018-11-14 15:52:58] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 21:01:19] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 41225 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 21:01:19] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 21:01:20] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 21:01:25] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 21:01:25] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 21:01:25] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 21:01:26] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 21:01:29] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:01:29] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:01:29] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 21:01:29] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 11.06 seconds (JVM running for 13.333)
+[ INFO ] [2018-11-14 21:01:34] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ ERROR] [2018-11-14 21:03:50] com.vip.advice.ExceptionHandlerAdvice [81] - uri=/vip-manager/user/base/login_passwd | requestBody=null
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.vip.base.Result com.vip.controller.user.BaseUserController.login(com.vip.base.ReqParam<com.vip.request.user.UserLoginPasswdAccountReq>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:154)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ ERROR] [2018-11-14 21:04:42] com.vip.advice.ExceptionHandlerAdvice [81] - uri=/vip-manager/user/base/login_passwd | requestBody=null
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.vip.base.Result com.vip.controller.user.BaseUserController.login(com.vip.base.ReqParam<com.vip.request.user.UserLoginPasswdAccountReq>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:154)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ ERROR] [2018-11-14 21:04:50] com.vip.advice.ExceptionHandlerAdvice [81] - uri=/vip-manager/user/base/login_passwd | requestBody=null
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.vip.base.Result com.vip.controller.user.BaseUserController.login(com.vip.base.ReqParam<com.vip.request.user.UserLoginPasswdAccountReq>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:154)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO ] [2018-11-14 21:06:28] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 21:07:30] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 42432 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 21:07:30] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 21:07:31] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 21:07:35] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 21:07:35] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 21:07:35] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 21:07:36] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 21:07:39] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:07:39] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:07:39] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 21:07:39] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 10.223 seconds (JVM running for 12.114)
+[ INFO ] [2018-11-14 21:07:52] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-14 21:10:00] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 21:10:59] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 42843 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 21:11:00] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 21:11:01] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 21:11:04] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 21:11:04] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 21:11:04] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 21:11:04] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 21:11:06] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:11:06] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:11:06] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 21:11:06] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.738 seconds (JVM running for 10.547)
+[ INFO ] [2018-11-14 21:11:15] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ ERROR] [2018-11-14 21:11:33] com.vip.advice.ExceptionHandlerAdvice [87] - uri=/vip-manager/user/base/login_passwd | requestBody=null
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.vip.base.Result com.vip.controller.user.BaseUserController.loginPasswd(com.vip.base.ReqParam<com.vip.request.user.UserLoginPasswdAccountReq>)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:154)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:128)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:158)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:128)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ INFO ] [2018-11-14 21:13:17] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 21:13:50] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 43529 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 21:13:50] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 21:13:52] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 21:13:57] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 21:13:57] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 21:13:57] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 21:14:09] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 43651 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 21:14:09] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 21:14:11] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 21:14:19] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 21:14:19] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 21:14:19] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 21:14:21] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 21:14:24] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:14:24] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 21:14:24] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 21:14:24] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 16.937 seconds (JVM running for 18.895)
+[ INFO ] [2018-11-14 21:14:37] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-14 22:07:58] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 22:08:54] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 47529 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 22:08:54] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 22:08:55] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 22:08:59] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 22:08:59] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 22:08:59] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 22:09:00] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 22:09:03] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 22:09:03] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 22:09:03] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 22:09:03] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 9.949 seconds (JVM running for 11.979)
+[ INFO ] [2018-11-14 22:09:34] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-14 22:17:36] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-14 22:17:43] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 50221 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-14 22:17:43] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-14 22:17:44] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-14 22:17:51] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-14 22:17:51] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-14 22:17:51] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-14 22:17:52] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-14 22:17:54] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 22:17:54] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-14 22:17:54] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-14 22:17:54] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 13.133 seconds (JVM running for 15.072)
+[ INFO ] [2018-11-14 22:18:00] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-14 22:23:39] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed

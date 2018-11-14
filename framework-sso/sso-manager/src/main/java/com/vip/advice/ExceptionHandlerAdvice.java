@@ -44,31 +44,38 @@ public class ExceptionHandlerAdvice implements ResponseBodyAdvice {
     if (errors.size() > 0) {
       tips = errors.get(0).getDefaultMessage();
     }
-    return Result.failure(CodeEnum.PARAMETER_ERROR);
+    Result result = Result.failure(CodeEnum.PARAMETER_ERROR);
+    result.setMsg(tips);
+    return result;
   }
 
   /**
    * @param e 自定义异常捕捉
-   * @return com.jiaxin.base.Result
+   * @return com.vip.base.Result
    * @Description
    * @author GorgeousNi on 2018/7/11 下午3:11
    */
   @ExceptionHandler(ResultException.class)
   public Result handleResultException(ResultException e, HttpServletRequest request) {
-    logger.debug("uri={} | requestBody={}", request.getRequestURI(),
-        JSON.toJSONString(modelHolder.get()));
+    if (modelHolder.get() == null) {
+      return Result.failure(CodeEnum.ERROR_HTTP);
+    }
+    logger.debug("uri={} | requestBody={}", request.getRequestURI(),JSON.toJSONString(modelHolder.get()));
     return Result.failure(e.getResultCode());
   }
 
 
   /**
    * @param e 自定义异常捕捉
-   * @return com.jiaxin.base.Result
+   * @return com.vip2.base.Result
    * @Description
    * @author GorgeousNi on 2018/7/11 下午3:20
    */
   @ExceptionHandler(GatewayException.class)
   public Result handleGatewayException(GatewayException e, HttpServletRequest request) {
+    if (modelHolder.get() == null) {
+      return Result.failure(CodeEnum.ERROR_HTTP);
+    }
     logger.debug("uri={} | requestBody={}", request.getRequestURI(),
         JSON.toJSONString(modelHolder.get()));
     return Result.failure(e.getResultCode());
@@ -76,9 +83,12 @@ public class ExceptionHandlerAdvice implements ResponseBodyAdvice {
 
   @ExceptionHandler(Exception.class)
   public Result handleException(Exception e, HttpServletRequest request) {
+    if (modelHolder.get() == null) {
+      return Result.failure(CodeEnum.ERROR_HTTP);
+    }
     logger.error("uri={} | requestBody={}", request.getRequestURI(),
         JSON.toJSONString(modelHolder.get()), e);
-    return Result.failure(CodeEnum.ERROR_HTTP);
+    return Result.failure(CodeEnum.ERROR);
   }
 
   @InitBinder
@@ -87,12 +97,12 @@ public class ExceptionHandlerAdvice implements ResponseBodyAdvice {
     modelHolder.set(webDataBinder.getTarget());
   }
 
-  
+
   public boolean supports(MethodParameter returnType, Class converterType) {
     return true;
   }
 
- 
+
   public Object beforeBodyWrite(Object body, MethodParameter returnType,
       MediaType selectedContentType,
       Class selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {

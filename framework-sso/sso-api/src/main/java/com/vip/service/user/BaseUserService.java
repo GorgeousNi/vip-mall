@@ -25,12 +25,17 @@ public interface BaseUserService {
    */
   Result register(UserRegisterPhoneReq registerReq);
 
+  /**
+  * @Description 根据账号判断账号是否存在
+  * @author GorgeousNi on 2018/11/14 9:40 PM 
+  */
+  boolean checkUserExist(String accountName);
 
   /**
-   * @Description 根据用户名判断账号是否存在
+   * @Description 根据账号获取用户信息
    * @author GorgeousNi on 2018/11/13 2:19 PM
    */
-  Result checkUserExist(BaseUserAccountReq phoneReq);
+  Result getUserByAccount(BaseUserAccountReq accountReq);
 
 
 }

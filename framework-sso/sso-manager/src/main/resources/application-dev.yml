@@ -7,7 +7,7 @@ spring:
       username: root
       password: 123456
       type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://127.0.0.1:3306/vip-manager
+      url: jdbc:mysql://127.0.0.1:3306/vip-manager?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
       maxActive: 20
       initialSize: 1
       maxWait: 60000
@@ -16,11 +16,8 @@ spring:
       minEvictableIdleTimeMillis: 300000
       testWhileIdle : true
       validationQuery: select 1 from dual
-#mybatis:
-#  #实体类所做包
-#  type-aliases-package: com.vip.model.*
-#  #mapper.xml所在位置
-#  mapper-locations: classpath*:com/vip/dao/user/*.xml
+  mvc:
+    throw-exception-if-no-handler-found: true
 server:
   port: 8081
   context-path: /vip-manager

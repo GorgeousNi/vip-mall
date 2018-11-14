@@ -16,18 +16,11 @@ public class ClaimsConstants implements BaseModel {
   public static final String ISSUER = "KXB";
   public static final String SUBJECT = "";
   public static final String AUDIENCE = "098f6bcd4621d373cade4e8we2we232627b4f6";
-  public static final Long EXPIRATION = 300000L; //jwt过期时间：1s
-  public static final String NOT_BEFORE = "";
-  public static final String ID = "";
-
-
   /**
    * jwt过期时间：60*5*1000*1 毫秒 = 5分钟
    */
-  Long JWT_EXPIRE_5_MIN = 300000L;
+  public static final Long EXPIRATION = 300000L;
+  public static final String NOT_BEFORE = "";
+  public static final String ID = "";
 
-  /**
-   * jwt过期时间：30L * 24L * 60*60 * 1000L  = 30天
-   */
-  Long JWT_EXPIRE_30_DATE = 2592000000L;
 }

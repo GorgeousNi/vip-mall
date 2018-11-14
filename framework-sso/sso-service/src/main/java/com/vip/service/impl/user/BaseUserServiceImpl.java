@@ -11,6 +11,7 @@ import com.vip.model.user.UBaseUser;
 import com.vip.request.user.UserLoginPasswdAccountReq;
 import com.vip.request.user.UserRegisterPhoneReq;
 import com.vip.request.user.base.BaseUserAccountReq;
+import com.vip.response.user.UserLoginPasswdAccountRep;
 import com.vip.service.user.BaseUserService;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.BeanUtils;
@@ -48,8 +49,9 @@ public class BaseUserServiceImpl implements BaseUserService {
      */
     UserTokenParams userTokenParams = new UserTokenParams();
     BeanUtils.copyProperties(baseUser,userTokenParams);
-    String token = JwtUtil.createJWT(UserConstants.USER_TOKEN,userTokenParams);
-    return Result.success(token);
+    UserLoginPasswdAccountRep rep = new UserLoginPasswdAccountRep();
+    rep.setUtoken(JwtUtil.createJWT(UserConstants.USER_TOKEN,userTokenParams));
+    return Result.success(rep);
   }
 
   public Result register(UserRegisterPhoneReq registerReq) {

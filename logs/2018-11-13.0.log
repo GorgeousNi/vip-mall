@@ -1332,3 +1332,4 @@ Consider defining a bean of type 'com.vip.dao.user.UBaseUserMapper' in your conf
 [ INFO ] [2018-11-13 21:18:55] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
 [ INFO ] [2018-11-13 21:18:55] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
 [ INFO ] [2018-11-13 21:18:55] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.67 seconds (JVM running for 10.219)
+[ INFO ] [2018-11-13 21:26:48] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed

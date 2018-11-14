@@ -1,0 +1,7 @@
+com/vip/common/UserConstants.class
+com/vip/service/impl/user/BaseUserServiceImpl.class
+com/vip/dao/user/UBaseUserMapper.class
+com/vip/model/user/UBaseUser.class
+com/vip/common/UserTokenParams.class
+com/vip/common/UserResult.class
+com/vip/common/UserCodeEnum.class

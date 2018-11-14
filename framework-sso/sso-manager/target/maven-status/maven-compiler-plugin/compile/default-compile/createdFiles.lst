@@ -1,0 +1,7 @@
+com/vip/advice/TokenRequestBodyAdvice.class
+com/vip/advice/LogResponseBodyAdvice.class
+com/vip/controller/user/BaseUserController.class
+com/vip/advice/ResponseResult.class
+com/vip/advice/LogRequestBodyAdvice.class
+com/vip/boot/ManagerApplication.class
+com/vip/advice/ExceptionHandlerAdvice.class

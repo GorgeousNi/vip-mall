@@ -16,11 +16,11 @@ spring:
       minEvictableIdleTimeMillis: 300000
       testWhileIdle : true
       validationQuery: select 1 from dual
-mybatis:
-  #实体类所做包
-  type-aliases-package: com.vip.model.*
-  #mapper.xml所在位置
-  mapper-locations: classpath:mappers/*Mapper.xml
+#mybatis:
+#  #实体类所做包
+#  type-aliases-package: com.vip.model.*
+#  #mapper.xml所在位置
+#  mapper-locations: classpath*:com/vip/dao/user/*.xml
 server:
   port: 8081
   context-path: /vip-manager

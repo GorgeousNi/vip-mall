@@ -10,7 +10,7 @@
 
   <!-- 配置别名 pojo对象所在包名-->
   <typeAliases>
-    <package name="com.vip.model.*"/>
+    <package name="com.vip.model.user"/>
   </typeAliases>
 
   <!-- 插件 -->

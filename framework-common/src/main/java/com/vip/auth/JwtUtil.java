@@ -2,9 +2,8 @@ package com.vip.auth;
 
 import com.alibaba.fastjson.JSONObject;
 import com.vip.base.BaseModel;
+import com.vip.code.CodeEnum;
 import com.vip.constants.ClaimsConstants;
-import com.vip.constants.PortalConstants;
-import com.vip.constants.PortalConstants.Auth;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtBuilder;
@@ -30,7 +29,7 @@ public class JwtUtil implements BaseModel {
    * @author GorgeousNi on 2018/11/13 4:43 PM
    */
   public static Claims parseJWT(String token) {
-    return parseJWT(token, Auth.SECURITY);
+    return parseJWT(token, ClaimsConstants.AUTH_SECURITY);
   }
 
 
@@ -54,7 +53,7 @@ public class JwtUtil implements BaseModel {
    */
   public static String createJWT(String tokenName, TokenParams tokenParams) {
     return createJWT(tokenName, tokenParams, ClaimsConstants.AUDIENCE, ClaimsConstants.ISSUER,
-        ClaimsConstants.EXPIRATION, Auth.SECURITY);
+        ClaimsConstants.EXPIRATION, ClaimsConstants.AUTH_SECURITY);
   }
 
 
@@ -104,19 +103,19 @@ public class JwtUtil implements BaseModel {
     try {
       claims = parseJWT(token);
       if (claims != null) {
-        checkResult.setSuccess(true);
-        checkResult.setCode(PortalConstants.Auth.JWT_SUCCESS_CODE);
-        checkResult.setMsg(PortalConstants.Auth.JWT_SUCCESS_DESC);
+        checkResult.setIsSuccess(true);
+        checkResult.setCode(CodeEnum.TOKEN_SUCCESS.getCode());
+        checkResult.setMsg(CodeEnum.TOKEN_SUCCESS.getMsg());
         checkResult.setClaims(claims);
       } else {
-        checkResult.setCode(PortalConstants.Auth.JWT_ERROR_EXPIRE_CODE);
-        checkResult.setMsg(PortalConstants.Auth.JWT_ERROR_EXPIRE_DESC);
-        checkResult.setSuccess(false);
+        checkResult.setCode(CodeEnum.EXPIRED_TOKEN.getCode());
+        checkResult.setMsg(CodeEnum.EXPIRED_TOKEN.getMsg());
+        checkResult.setIsSuccess(false);
       }
     } catch (Exception e) {
-      checkResult.setCode(PortalConstants.Auth.JWT_ERROR_FAIL_CODE);
-      checkResult.setMsg(PortalConstants.Auth.JWT_ERROR_FAIL_DESC);
-      checkResult.setSuccess(false);
+      checkResult.setCode(CodeEnum.INVALID_TOKEN.getCode());
+      checkResult.setMsg(CodeEnum.INVALID_TOKEN.getMsg());
+      checkResult.setIsSuccess(false);
     }
     return checkResult;
   }

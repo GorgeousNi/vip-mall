@@ -6,6 +6,7 @@ import com.vip.common.UserCodeEnum;
 import com.vip.common.UserConstants;
 import com.vip.common.UserResult;
 import com.vip.common.UserTokenParams;
+import com.vip.constants.ClaimsConstants;
 import com.vip.dao.user.UBaseUserMapper;
 import com.vip.model.user.UBaseUser;
 import com.vip.request.user.UserLoginPasswdAccountReq;
@@ -51,7 +52,7 @@ public class BaseUserServiceImpl implements BaseUserService {
     UserTokenParams userTokenParams = new UserTokenParams();
     BeanUtils.copyProperties(baseUser,userTokenParams);
     UserLoginPasswdAccountRep rep = new UserLoginPasswdAccountRep();
-    rep.setUtoken(JwtUtil.createJWT(UserConstants.USER_TOKEN,userTokenParams));
+    rep.setUtoken(JwtUtil.createJWT(ClaimsConstants.AUTH_TOKEN_KEY,userTokenParams));
     return Result.success(rep);
   }
 

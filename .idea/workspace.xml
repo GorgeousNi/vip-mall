@@ -2,29 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc7b29a-24fa-4a30-89d8-29ae224b6f84" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/EncodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserPhoneReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/CheckResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/CheckResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/PortalConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/auth/CheckResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/target/classes/com/vip/auth/CheckResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/auth/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/target/classes/com/vip/auth/JwtUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/base/ReqParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/target/classes/com/vip/base/ReqParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/UserRegisterPhoneReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/UserRegisterPhoneReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/ExceptionHandlerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/MyResponseBodyAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/ResponseResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/code/CodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/target/classes/com/vip/code/CodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/constants/ClaimsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/target/classes/com/vip/constants/ClaimsConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/constants/PortalConstants$Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/constants/PortalConstants$MediaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/target/classes/com/vip/constants/PortalConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/TokenRequestBodyAdvice.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/advice/ExceptionHandlerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/advice/ExceptionHandlerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/advice/ResponseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/controller/user/BaseUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/controller/user/BaseUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-pro.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-pro.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-manager/target/classes/com/vip/advice/TokenRequestBodyAdvice.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/common/UserCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/common/UserCodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2018-11-14.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2018-11-14.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/common/UserConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/common/UserConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/service/impl/user/BaseUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-sso/sso-service/target/classes/com/vip/service/impl/user/BaseUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/vip_platform.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/vip_platform.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/vip_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/vip_user.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/framework-sso/target/" />
     <ignored path="$PROJECT_DIR$/sso-api/target/" />
@@ -54,44 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java">
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseUserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UBaseUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/model/user/UBaseUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UBaseUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/dao/user/UBaseUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="197" column="11" lean-forward="true" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -99,17 +75,35 @@
       <file leaf-file-name="application-pro.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml">
+      <file leaf-file-name="application-test.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/AuthInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimsConstants.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -117,8 +111,8 @@
       <file leaf-file-name="BaseUserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="201">
+              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,11 +120,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UBaseUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/dao/user/UBaseUserMapper.java">
+      <file leaf-file-name="CodeEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JwtUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/JwtUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +164,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.jiaxin</find>
       <find>mysql</find>
       <find>sms</find>
       <find>fas</find>
@@ -176,6 +193,7 @@
       <find>ch</find>
       <find>log</find>
       <find>短信</find>
+      <find>许可</find>
     </findStrings>
     <replaceStrings>
       <replace>com.vip</replace>
@@ -197,21 +215,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/BaseParam.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserTokenReq.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserAccountReq.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/boot/controller/user/BaseUserController.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/annotation/JsonDes.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/LogRequestBodyAdvice.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/JsonDesUtils.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/exception/ResultException.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/exception/GatewayException.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/TokenRequestBodyAdvice.java" />
         <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/PropertyReadUtils.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/LogResponseBodyAdvice.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/MyResponseBodyAdvice.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/framework-sso/sso-service/src/test/java/com/vip/user/service/BaseUserService.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-service/src/test/java/App.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-service/src/test/java/com/vip/user/service/BaseUserServiceTest.java" />
@@ -236,18 +242,30 @@
         <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/response/user/UserLoginPasswdAccountRep.java" />
         <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/EncodeUtil.java" />
         <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/MD5.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/ExceptionHandlerAdvice.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java" />
-        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/UserRegisterPhoneReq.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserPhoneReq.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserCodeEnum.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java" />
+        <option value="$PROJECT_DIR$/sql/vip_user.sql" />
+        <option value="$PROJECT_DIR$/sql/vip_platform.sql" />
+        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/test" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java" />
-        <option value="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/CheckResult.java" />
+        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml" />
+        <option value="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/PortalConstants.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -288,7 +306,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="45" />
+    <option name="y" value="27" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
   </component>
@@ -310,7 +329,210 @@
             <path>
               <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
               <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
@@ -406,6 +628,131 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vip-mall-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vip-mall-project" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -430,11 +777,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework-common/src/main/java/com/vip/config" />
       <recent name="$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/dao/user" />
       <recent name="$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources" />
       <recent name="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/config" />
       <recent name="$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip" />
-      <recent name="$PROJECT_DIR$/framework-sso/sso-service/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vip.utils" />
@@ -638,7 +985,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="45" y="27" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -649,25 +997,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013889" side_tool="true" weight="0.23968042" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.18333334" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23834887" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7569444" visible="true" weight="0.44873503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7569444" weight="0.31691077" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3288948" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.63611114" weight="0.5406125" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.63611114" weight="0.3515313" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -715,73 +1063,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/mappers/UBaseUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2051">
-          <caret line="169" column="45" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/response/user/UserLoginPasswdAccountRep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="45" column="14" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -823,13 +1112,6 @@
     <entry file="file://$PROJECT_DIR$/log4j/vip-manager/error.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="909">
-          <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/2018-11-13.0.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19595" />
@@ -842,17 +1124,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log4j/vip-manager/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/utils/EncodeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,58 +1168,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/TokenRequestBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/boot/ManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/mvn-repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/bind/MethodArgumentNotValidException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/CheckResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/TokenParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -959,31 +1182,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/PortalConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="63" column="35" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/UserBindEmailReq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserAccountReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1021,13 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/ExceptionHandlerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1042,40 +1237,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/dao/user/UBaseUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="360">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,17 +1251,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml">
+    <entry file="file://$PROJECT_DIR$/sql/vip_user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="95" column="102" selection-start-line="95" selection-start-column="102" selection-end-line="95" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/vip_platform.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="86" column="3" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/request/user/base/BaseUserAccountReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-api/src/main/java/com/vip/service/user/BaseUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/TokenParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/ReqParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/controller/user/BaseUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/advice/TokenRequestBodyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/java/com/vip/boot/ManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/base/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/CheckResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/common/UserConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-pro.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-manager/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/config/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/PortalConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/code/CodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/auth/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-sso/sso-service/src/main/java/com/vip/service/impl/user/BaseUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/src/main/java/com/vip/constants/ClaimsConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

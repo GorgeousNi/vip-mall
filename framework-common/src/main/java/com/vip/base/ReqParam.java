@@ -22,10 +22,6 @@ public class ReqParam<T extends BaseParam> implements Serializable {
    */
   private String sysCode;
   /**
-   * 用户token
-   */
-  private String token;
-  /**
    * 时间戳
    */
   private String timestamp;

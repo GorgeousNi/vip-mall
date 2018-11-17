@@ -1,0 +1,222 @@
+[ INFO ] [2018-11-17 18:39:27] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 92524 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 18:39:27] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 18:39:28] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 18:39:31] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 18:39:31] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 18:39:31] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 18:39:32] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 18:39:34] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 18:39:34] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 18:39:34] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 18:39:34] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.691 seconds (JVM running for 11.608)
+[ INFO ] [2018-11-17 19:24:05] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:24:42] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 96872 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:24:42] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:24:42] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:24:45] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:24:45] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:24:45] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:24:46] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:24:48] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:24:48] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:24:48] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:24:48] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 7.164 seconds (JVM running for 8.062)
+[ INFO ] [2018-11-17 19:28:24] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 19:28:24] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:28:24] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:28:25] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:28:56] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:29:35] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 97375 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:29:35] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:29:36] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:29:40] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:29:40] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:29:41] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:29:42] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:29:44] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:29:44] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:29:44] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:29:44] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 9.903 seconds (JVM running for 11.31)
+[ INFO ] [2018-11-17 19:29:47] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 19:29:47] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:29:47] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:29:47] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:31:21] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:32:01] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 97979 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:32:01] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:32:02] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:32:04] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:32:04] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:32:04] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:32:05] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:32:08] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:32:08] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:32:08] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:32:08] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 7.829 seconds (JVM running for 9.612)
+[ INFO ] [2018-11-17 19:32:32] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 97984 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:32:32] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:32:32] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:32:35] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:32:35] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:32:35] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:32:36] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ ERROR] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [181] - Failed to start end point associated with ProtocolHandler ["http-nio-8081"]
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.vip.boot.ManagerApplication.main(ManagerApplication.java:26)
+[ ERROR] [2018-11-17 19:32:39] org.apache.catalina.core.StandardService [181] - Failed to start connector [Connector[HTTP/1.1-8081]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8081]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.vip.boot.ManagerApplication.main(ManagerApplication.java:26)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+[ INFO ] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [179] - Pausing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:32:39] org.apache.catalina.core.StandardService [179] - Stopping service [Tomcat]
+[ INFO ] [2018-11-17 19:32:39] org.apache.catalina.util.LifecycleBase [179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[ INFO ] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [179] - Stopping ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:32:39] org.apache.coyote.http11.Http11NioProtocol [179] - Destroying ProtocolHandler ["http-nio-8081"]
+[ ERROR] [2018-11-17 19:32:39] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+[ INFO ] [2018-11-17 19:32:39] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:32:47] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:33:23] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 98000 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:33:23] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:33:24] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:33:26] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:33:26] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:33:26] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:33:27] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:33:29] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:33:29] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:33:29] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:33:29] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 6.893 seconds (JVM running for 8.047)
+[ INFO ] [2018-11-17 19:33:37] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 19:33:37] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:33:37] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:33:37] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:34:14] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:34:57] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 98714 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:34:57] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:34:58] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:35:02] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:35:02] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:35:03] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:35:04] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:35:06] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:35:06] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:35:06] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:35:06] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 10.359 seconds (JVM running for 12.243)
+[ INFO ] [2018-11-17 19:36:31] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 19:36:31] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:36:31] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:36:31] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:36:41] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:36:41] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:36:41] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:36:48] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:36:48] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:36:48] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:37:40] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:37:40] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:37:40] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:38:06] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:41:56] com.vip.config.MyInterceptor [32] - The USER TOKEN is: null
+[ ERROR] [2018-11-17 19:41:56] com.vip.auth.JwtUtil [45] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-17 19:44:08] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:44:18] com.vip.config.MyInterceptor [32] - The USER TOKEN is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTQ2MzksImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU0OTM5LCJuYmYiOjE1NDI0NTQ2Mzl9.OR5ZVidGqRe-w5wXSuivz28s8tZLyDIDKHOYVsSfFJM
+[ ERROR] [2018-11-17 19:44:20] com.vip.auth.JwtUtil [45] - JWT expired at 2018-11-17T19:42:19Z. Current time: 2018-11-17T19:44:20Z, a difference of 121632 milliseconds.  Allowed clock skew: 0 milliseconds.
+[ INFO ] [2018-11-17 19:48:14] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:48:14] com.vip.config.MyInterceptor [32] - The USER TOKEN is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTUyNjgsImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU1NTY4LCJuYmYiOjE1NDI0NTUyNjh9.BU88TSd0aSB3WQpt5pNSoB2WelOIPr5m_AJkHOISbuI
+[ INFO ] [2018-11-17 19:49:29] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 19:50:08] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 908 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 19:50:08] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 19:50:09] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 19:50:14] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 19:50:14] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 19:50:14] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 19:50:17] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 19:50:20] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:50:21] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 19:50:21] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 19:50:21] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 13.498 seconds (JVM running for 14.573)
+[ INFO ] [2018-11-17 19:56:06] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 19:56:06] com.vip.config.MyInterceptor [29] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 19:56:06] com.vip.config.MyInterceptor [32] - The USER TOKEN is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTUyNjgsImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU1NTY4LCJuYmYiOjE1NDI0NTUyNjh9.BU88TSd0aSB3WQpt5pNSoB2WelOIPr5m_AJkHOISbuI
+[ ERROR] [2018-11-17 19:56:06] com.vip.auth.JwtUtil [45] - JWT expired at 2018-11-17T19:52:48Z. Current time: 2018-11-17T19:56:06Z, a difference of 198784 milliseconds.  Allowed clock skew: 0 milliseconds.
+[ INFO ] [2018-11-17 20:01:17] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-17 20:01:59] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 1624 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-17 20:01:59] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-17 20:02:00] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-17 20:02:03] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-17 20:02:03] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-17 20:02:03] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-17 20:02:03] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-17 20:02:05] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 20:02:05] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-17 20:02:05] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-17 20:02:06] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 7.753 seconds (JVM running for 10.139)
+[ INFO ] [2018-11-17 20:04:47] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-17 20:04:47] com.vip.config.MyInterceptor [31] - Api Auth>>>>>true<<<<<
+[ INFO ] [2018-11-17 20:04:47] com.vip.config.MyInterceptor [34] - The USER TOKEN is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTUyNjgsImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU1NTY4LCJuYmYiOjE1NDI0NTUyNjh9.BU88TSd0aSB3WQpt5pNSoB2WelOIPr5m_AJkHOISbuI
+[ ERROR] [2018-11-17 20:04:47] com.vip.auth.JwtUtil [45] - JWT expired at 2018-11-17T19:52:48Z. Current time: 2018-11-17T20:04:47Z, a difference of 719712 milliseconds.  Allowed clock skew: 0 milliseconds.
+[ INFO ] [2018-11-17 20:11:08] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed

@@ -1,0 +1,83 @@
+[ INFO ] [2018-11-18 01:35:34] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 10428 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-18 01:35:34] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-18 01:35:35] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-18 01:35:40] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-18 01:35:40] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-18 01:35:40] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-18 01:35:41] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [80] - Context refreshed
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [83] - Found {0} custom documentation plugin(s)
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [53] - Scanning for api listing references
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: checkUserExist belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: loginPasswd belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: register belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 01:35:44] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [84] - Created resource listing Path: /default/用户基础信息api Description: 用户基础信息api Position: 0
+[ INFO ] [2018-11-18 01:35:44] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 01:35:44] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 01:35:45] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-18 01:35:45] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 11.929 seconds (JVM running for 13.005)
+[ INFO ] [2018-11-18 01:42:24] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-18 01:42:24] com.vip.config.AuthInterceptor [34] - Api Auth >>>>>true<<<< 
+[ INFO ] [2018-11-18 01:42:24] com.vip.config.AuthInterceptor [37] -  The AUTH_TOKEN_KEY is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTUyNjgsImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU1NTY4LCJuYmYiOjE1NDI0NTUyNjh9.BU88TSd0aSB3WQpt5pNSoB2WelOIPr5m_AJkHOISbuI
+[ ERROR] [2018-11-18 01:42:25] com.vip.auth.JwtUtil [44] - JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[ INFO ] [2018-11-18 01:50:01] com.vip.config.AuthInterceptor [34] - Api Auth >>>>>true<<<< 
+[ INFO ] [2018-11-18 01:50:01] com.vip.config.AuthInterceptor [37] -  The AUTH_TOKEN_KEY is: null
+[ ERROR] [2018-11-18 01:50:01] com.vip.auth.JwtUtil [44] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-18 01:50:01] com.vip.config.AuthInterceptor [34] - Api Auth >>>>>true<<<< 
+[ INFO ] [2018-11-18 01:50:01] com.vip.config.AuthInterceptor [37] -  The AUTH_TOKEN_KEY is: null
+[ ERROR] [2018-11-18 01:50:01] com.vip.auth.JwtUtil [44] - JWT String argument cannot be null or empty.
+[ INFO ] [2018-11-18 01:54:04] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-18 01:59:05] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 10637 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-18 01:59:05] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-18 01:59:05] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-18 01:59:08] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-18 01:59:08] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-18 01:59:09] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-18 01:59:09] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-18 01:59:12] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [80] - Context refreshed
+[ INFO ] [2018-11-18 01:59:12] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [83] - Found {0} custom documentation plugin(s)
+[ INFO ] [2018-11-18 01:59:12] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [53] - Scanning for api listing references
+[ INFO ] [2018-11-18 01:59:12] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 01:59:12] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 01:59:12] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-18 01:59:12] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.523 seconds (JVM running for 9.467)
+[ INFO ] [2018-11-18 01:59:23] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-18 02:00:54] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-18 02:01:13] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 10656 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-18 02:01:13] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-18 02:01:14] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-18 02:01:17] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-18 02:01:17] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-18 02:01:17] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-18 02:01:18] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-18 02:01:21] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [80] - Context refreshed
+[ INFO ] [2018-11-18 02:01:21] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [83] - Found {0} custom documentation plugin(s)
+[ INFO ] [2018-11-18 02:01:21] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [53] - Scanning for api listing references
+[ INFO ] [2018-11-18 02:01:21] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 02:01:21] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 02:01:21] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-18 02:01:21] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.502 seconds (JVM running for 9.956)
+[ INFO ] [2018-11-18 02:02:21] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed
+[ INFO ] [2018-11-18 02:02:40] com.vip.boot.ManagerApplication [48] - Starting ManagerApplication on GorgeousNi-MacBook-Pro.local with PID 10668 (/Users/nibaobao/Documents/vip-mall-project/framework-sso/sso-manager/target/classes started by nibaobao in /Users/nibaobao/Documents/vip-mall-project)
+[ INFO ] [2018-11-18 02:02:40] com.vip.boot.ManagerApplication [597] - The following profiles are active: dev
+[ INFO ] [2018-11-18 02:02:40] org.hibernate.validator.internal.util.Version [30] - HV000001: Hibernate Validator 5.3.5.Final
+[ INFO ] [2018-11-18 02:02:43] org.apache.catalina.core.StandardService [179] - Starting service [Tomcat]
+[ INFO ] [2018-11-18 02:02:43] org.apache.catalina.core.StandardEngine [179] - Starting Servlet Engine: Apache Tomcat/8.5.16
+[ INFO ] [2018-11-18 02:02:43] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2018-11-18 02:02:44] com.alibaba.druid.pool.DruidDataSource [928] - {dataSource-1} inited
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [80] - Context refreshed
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [83] - Found {0} custom documentation plugin(s)
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [53] - Scanning for api listing references
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: checkUserExist belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: loginPasswd belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [72] - Request mapping: register belongs to groups: [[ResourceGroup{groupName='用户基础信息api', position=0, controller=com.vip.controller.user.BaseUserController}]] 
+[ INFO ] [2018-11-18 02:02:47] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [84] - Created resource listing Path: /default/用户基础信息api Description: 用户基础信息api Position: 0
+[ INFO ] [2018-11-18 02:02:47] org.apache.coyote.http11.Http11NioProtocol [179] - Initializing ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 02:02:47] org.apache.coyote.http11.Http11NioProtocol [179] - Starting ProtocolHandler ["http-nio-8081"]
+[ INFO ] [2018-11-18 02:02:47] org.apache.tomcat.util.net.NioSelectorPool [179] - Using a shared selector for servlet write/read
+[ INFO ] [2018-11-18 02:02:47] com.vip.boot.ManagerApplication [57] - Started ManagerApplication in 8.655 seconds (JVM running for 9.953)
+[ INFO ] [2018-11-18 02:02:52] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/vip-manager] [179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[ INFO ] [2018-11-18 02:04:09] com.vip.config.AuthInterceptor [34] - Api Auth >>>>>true<<<< 
+[ INFO ] [2018-11-18 02:04:09] com.vip.config.AuthInterceptor [37] -  The AUTH_TOKEN_KEY is: eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ1dG9rZW4iOnsiYmlydGhkYXkiOjc0NjQ2NzIwMDAwMCwicmVhbE5hbWUiOiJcdUQ4M0RcdURDOTciLCJsb2dpblBhc3N3ZCI6IiQyYSQxMCRrc3FVeHhDN05LZy5sTkJ2LmZ1YkdPWkRjejVQOFZXMzlXcEpUY013MEpaUDNJY0pDeUE1cSIsInVzZXJTdGF0dXMiOiJVMDEiLCJtb2JpbGVQaG9uZSI6IjE4ODE5MTc2MDUwIiwiY3JlYXRlVGltZSI6MTU0MTk1MjAwMDAwMCwic2V4IjoiMiIsInVwZGF0ZVRpbWUiOm51bGwsInVzZXJJbWdVcmwiOiJodHRwOi8vdGhpcmR3eC5xbG9nby5jbi9tbW9wZW4vdmlfMzIvUTBqNFR3R1RmVEtqRWtaTXpERTQ3cjE1MmdWRDFBZHRJQ2lhRzBzVmZ4ek1GV0prb3lVaWJBdjVGVGdUT1Y1cXB3S0NORjJnajNGcVJOREdydnZRbXhlQS8xMzIiLCJ1c2VyTmFtZSI6IuazpSIsInVzZXJJZCI6MTAwMDAwLCJlbWFpbCI6IjEyMyJ9LCJpc3MiOiJLWEIiLCJpYXQiOjE1NDI0NTUyNjgsImF1ZCI6IjA5OGY2YmNkNDYyMWQzNzNjYWRlNGU4d2Uyd2UyMzI2MjdiNGY2IiwiZXhwIjoxNTQyNDU1NTY4LCJuYmYiOjE1NDI0NTUyNjh9.BU88TSd0aSB3WQpt5pNSoB2WelOIPr5m_AJkHOISbuI
+[ ERROR] [2018-11-18 02:04:09] com.vip.auth.JwtUtil [44] - JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[ INFO ] [2018-11-18 02:07:05] com.alibaba.druid.pool.DruidDataSource [1823] - {dataSource-1} closed

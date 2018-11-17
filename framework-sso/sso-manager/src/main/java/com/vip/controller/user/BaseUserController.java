@@ -9,6 +9,9 @@ import com.vip.request.user.UserLoginPasswdAccountReq;
 import com.vip.request.user.UserRegisterPhoneReq;
 import com.vip.request.user.base.BaseUserAccountReq;
 import com.vip.service.user.BaseUserService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,6 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/user/base/")
+@Api(value = "用户基础信息API")
 public class BaseUserController {
 
   @Autowired
@@ -36,7 +40,9 @@ public class BaseUserController {
    */
   @RequestMapping(value = "login_passwd", method = RequestMethod.POST)
   @ResponseBody
+  @ApiOperation(value = "账号密码登录接口", notes = "账号密码登录，账号包含手机号、用户名、邮箱，登录成功后返回用户token")
   public Result loginPasswd(
+      @ApiParam(required = true, value = "用户登录请求参数")
       @RequestBody ReqParam<UserLoginPasswdAccountReq> reqParam) {
     if (reqParam == null) {
       return Result.failure(CodeEnum.ERROR_HTTP);
@@ -57,7 +63,9 @@ public class BaseUserController {
    */
   @RequestMapping(value = "check_user_exist", method = RequestMethod.POST)
   @ResponseBody
+  @ApiOperation(value = "根据账号判断用户是否存在接口",notes = "若账号不存在返回成功，否则返回失败")
   public Result checkUserExist(
+      @ApiParam(required = true, value = "用户账号请求参数")
       @RequestBody ReqParam<BaseUserAccountReq> reqParam) {
     if (reqParam == null) {
       return Result.failure(CodeEnum.ERROR_HTTP);
@@ -79,7 +87,9 @@ public class BaseUserController {
    */
   @RequestMapping(value = "register", method = RequestMethod.POST)
   @ResponseBody
+  @ApiOperation(value = "用户手机号注册接口",notes = "手机号注册")
   public Result register(
+      @ApiParam(required = true, value = "用户注册请求参数")
       @RequestBody ReqParam<UserRegisterPhoneReq> reqParam) {
     if (reqParam == null) {
       return Result.failure(CodeEnum.ERROR_HTTP);

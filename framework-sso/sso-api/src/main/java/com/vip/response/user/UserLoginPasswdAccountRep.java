@@ -17,6 +17,6 @@ public class UserLoginPasswdAccountRep implements BaseModel {
   /**
    * 用户信息token
    */
-  private String utoken;
+  private String authorization;
 
 }

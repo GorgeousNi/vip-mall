@@ -36,15 +36,16 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
       String authorization = request.getHeader(ClaimsConstants.AUTH_TOKEN_KEY);
       logger.info(" The AUTH_TOKEN_KEY is: {}", authorization);
       Result result = null;
+      response.setHeader("Content-Type", ClaimsConstants.APPLICATION_JSON_UTF8);
       if (StringUtils.isBlank(authorization)) {
         result = Result.failure(CodeEnum.EMPTY_TOKEN);
+        response.getWriter().write(new ObjectMapper().writeValueAsString(result));
+        response.getWriter().flush();
+        return false;
       }
       CheckResult checkResult = JwtUtil.validateJWT(authorization);
       if (!checkResult.getIsSuccess()) {
         result = Result.failure(checkResult.getMsg(), checkResult.getCode());
-      }
-      if (!result.isSuccess()) {
-        response.setHeader("Content-Type", ClaimsConstants.APPLICATION_JSON_UTF8);
         response.getWriter().write(new ObjectMapper().writeValueAsString(result));
         response.getWriter().flush();
         return false;

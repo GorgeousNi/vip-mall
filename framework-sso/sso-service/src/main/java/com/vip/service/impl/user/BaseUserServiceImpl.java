@@ -52,7 +52,7 @@ public class BaseUserServiceImpl implements BaseUserService {
     UserTokenParams userTokenParams = new UserTokenParams();
     BeanUtils.copyProperties(baseUser,userTokenParams);
     UserLoginPasswdAccountRep rep = new UserLoginPasswdAccountRep();
-    rep.setUtoken(JwtUtil.createJWT(ClaimsConstants.AUTH_TOKEN_KEY,userTokenParams));
+    rep.setAuthorization(JwtUtil.createJWT(ClaimsConstants.AUTH_TOKEN_KEY,userTokenParams));
     return Result.success(rep);
   }
 
